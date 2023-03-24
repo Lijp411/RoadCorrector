@@ -11,7 +11,7 @@ Moreover, the road network extraction results of RoadCorrector have more accurat
 
  * In the road network extraction stage, RoadCorrector is based on [D-Linknet]() and [RoadTracer](), which requires users to install the corresponding environment in the root file directory of this experiment, so as to directly extract the road network and road centerline.
 
-   ![image-20230324153121154](figure\image-20230324153121154.png)
+   ![overview](figures\overview.png)
 
 ## Dataset Preparation
 
