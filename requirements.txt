@@ -1,5 +1,0 @@
-tensorboardX
-tensorboard
-scipy
-opencv-python
-
