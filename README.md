@@ -11,7 +11,7 @@ Moreover, the road network extraction results of RoadCorrector have more accurat
 
  * In the road network extraction stage, RoadCorrector is based on [D-Linknet]() and [RoadTracer](), which requires users to install the corresponding environment in the root file directory of this experiment, so as to directly extract the road network and road centerline.
 
-   ![overview](figures\overview.png)
+   ![overview](figures/overview.png)
 
 ## Dataset Preparation
 
@@ -34,7 +34,7 @@ This repo only tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roa
 
  ### Evaluation
 *Matlab metrics_single.m*
-It will evalute this model in test dataset, and print the metrics, including IOU, precision, recall, F1.
+It will evalute this model in test dataset, and print the metrics, including IoU, precision, recall, F1.
 
 ## Contact us
 For any questions,please contact us via hejun36@mail2.sysu.edu.cn or lijp57@mail2.sysu.edu.cn.
