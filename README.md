@@ -32,7 +32,7 @@ Users can obtain the road segmentation maps via D-LinkNet, and obtain the road c
 ## Topology correction
  * When users have obtained the road intersection detection result and the road segmentation map, the road topology correction can be performed using the script (tools/ShapeCorrect.py). Please note that users need to vectorize the road segmentation map into a shapefile before this step.
 
- ### Evaluation
+## Evaluation
 *metrics_single.m*
 
  * This script is used for calculating the evaluation metrics including IOU, precision, recall, and F1-score.
