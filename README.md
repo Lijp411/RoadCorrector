@@ -15,7 +15,7 @@ Moreover, the road network extraction results of RoadCorrector have more accurat
 
 ## Dataset Preparation
 
-This repo only tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadtracer).Users need to download the Dataset and place it in the Dataset folder.
+This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadtracer). Users need to download the Dataset and place it in the Dataset folder.
 
 ## Intersection Detection
 
@@ -23,13 +23,14 @@ This repo only tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roa
 
  * After obtaining the corresponding subimage by cropping, place it in the same folder as the annotation file provided in dataset/intersection annotations (a new folder is recommended).
 
- * Users can put the DetectionExport.py provided in tools (this script does not require data format) and the training model provided in model/YOLOv7 into the root directory of YOLOv7 and run it to get the intersection detection results of the corresponding image (TXT format).
+ * Users can put the DetectionExport.py provided in tools (this script does not require data format) and the training model provided in model/YOLOv7 into the root directory of YOLOv7, and run it to get the intersection detection results of the corresponding image (TXT format).
 
  * Users can use [roboflow](https://roboflow.com/) to convert the dataset to your desired MSCOCO or YOLO dataset format.*
 
 ## Road Extraction
 
-Users can obtain road segmentation maps through methods such as D-LinkNet and road centerline maps through methods such as RoadTracer, which are then fused and enhanced through subsequent steps. (we provide pre-trained model downloads for road extraction, respectively)
+Users can obtain the road segmentation maps via D-LinkNet, and obtain the road centerline maps via RoadTracer, which are then fused and enhanced through the subsequent steps. The pre-trained models of the above two methods are provided in this repo.
+
  ### Fusion enhancement
 *Connectivity_Refinement.m*
 
