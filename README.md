@@ -27,7 +27,7 @@ Users can obtain the road segmentation maps via D-LinkNet, and obtain the road c
 ## Connectivity Refinement
  The script (Connectivity_Refinement.m) is used for road connectivity enhancement via CrossingTracer and Buffer-Fusion strategies.
 
-## Topology correction
+## Topology Correction
  
  When users have obtained the road intersection detection result and the road segmentation map, the road topology correction can be performed using the script (tools/ShapeCorrect.py). Please note that users need to vectorize the road segmentation map into a shapefile before this step.
 
