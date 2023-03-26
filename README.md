@@ -28,13 +28,21 @@ This repo only tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roa
  * Users can use [roboflow](https://roboflow.com/) to convert the dataset to your desired MSCOCO or YOLO dataset format.*
 
 ## Road Extraction
+
+Users can obtain road segmentation maps through methods such as D-LinkNet and road centerline maps through methods such as RoadTracer, which are then fused and enhanced through subsequent steps. (we provide pre-trained model downloads for road extraction, respectively)
  ### Fusion enhancement
-*Matlab Connectivity_Refinement.m*
-  This module mainly focuses on road connectivity enhancement using CrossingTracer and Buffer-Fusion strategies.
+*Connectivity_Refinement.m*
+
+ * This module mainly focuses on road connectivity enhancement using CrossingTracer and Buffer-Fusion strategies.
 
  ### Evaluation
-*Matlab metrics_single.m*
-It will evalute this model in test dataset, and print the metrics, including IoU, precision, recall, F1.
+*metrics_single.m*
+
+ * It will evaluate this model in test dataset, and print the metrics, including IOU, precision, recall, F1.
+
+## Topology correction
+ * If users has performed road intersection detection and successfully obtained the road segmentation map, the road topology correction can be implemented in this module(tools/ShapeCorrect.py). But before this, users need to convert the raster road segmentation map into a shapefile route map.
+
 
 ## Contact us
 For any questions,please contact us via hejun36@mail2.sysu.edu.cn or lijp57@mail2.sysu.edu.cn.
