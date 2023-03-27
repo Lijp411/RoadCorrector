@@ -12,7 +12,7 @@ This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadt
 
 ## Intersection Detection
 
- * After installing YOLOv7 and obtaining the RoadTracer dataset, users need to crop the 4096×4096 image in RoadTracer into 640×640 sub-images using Crop_Image.py in tools.
+ * After installing YOLOv7 and obtaining the RoadTracer dataset, users need to crop the 4096×4096 image in RoadTracer into 640×640 sub-images using CropImage.py in tools.
 
  * After obtaining the corresponding subimage by cropping, place it in the same folder as the annotation file provided in dataset/intersection annotations (a new folder is recommended).
 
@@ -29,7 +29,7 @@ Users can obtain the road segmentation maps via D-LinkNet, and obtain the road c
 
 ## Topology Correction
  
- When users have obtained the road intersection detection result and the road segmentation map, the road topology correction can be performed using the script (tools/ShapeCorrect.py). Please note that users need to vectorize the road segmentation map into a shapefile before this step.
+ When users have obtained the road intersection detection result and the road segmentation map, the road topology correction can be performed using the script (ShapeCorrect.py). Please note that users need to vectorize the road segmentation map into a shapefile before this step.
 
 ## Evaluation
 The script (metrics_single.m) is used for calculating the evaluation metrics including IOU, precision, recall, and F1-score.
