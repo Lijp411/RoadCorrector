@@ -25,7 +25,7 @@ This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadt
 Users can obtain the road segmentation maps via D-LinkNet, and obtain the road centerline maps via RoadTracer, which are then fused and enhanced through the subsequent steps. The pre-trained models of the above two methods are provided in this repo.
 
 ## Connectivity Refinement
- The script (Connectivity_Refinement.m) is used for road connectivity enhancement via CrossingTracer and Buffer-Fusion strategies.
+ The script ([Connectivity_Refinement.m](https://github.com/Lijp411/RoadCorrector/blob/main/enhancement/Connectivity_Refinement.m)) is used for road connectivity enhancement via CrossingTracer and Buffer-Fusion strategies.
 
 ## Topology Correction
  
