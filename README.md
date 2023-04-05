@@ -12,7 +12,7 @@ This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadt
 
 ## Intersection Detection
 
- * After installing [YOLOv7](https://github.com/WongKinYiu/yolov7) and obtaining the RoadTracer dataset, users need to crop the 4096×4096 image in RoadTracer into 640×640 sub-images using ClipImage.py in tools.
+ * After installing [YOLOv7](https://github.com/WongKinYiu/yolov7) and obtaining the RoadTracer dataset, users need to crop the 4096×4096 image in RoadTracer into 640×640 sub-images using [ClipImage.py](https://github.com/Lijp411/RoadCorrector/blob/main/tools/ClipImage.py) in tools.
 
  * After obtaining the corresponding subimage by cropping, place it in the same folder as the annotation file provided in dataset/intersection annotations (a new folder is recommended).
 
