@@ -1,0 +1,1 @@
+Please place the segmentation map under this folder
