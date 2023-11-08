@@ -8,7 +8,7 @@ Moreover, the road network extraction results of RoadCorrector have more accurat
 
 ## Dataset Preparation
 
-This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadtracer). Users need to download the Dataset and place it in the Dataset folder.
+This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadtracer) and DeepGlobe dataset. Users need to download the Dataset and place it in the Dataset folder.
 
 ## Intersection Detection
 
