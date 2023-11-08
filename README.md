@@ -24,16 +24,7 @@ This repo is tested on [RoadTracer dataset](https://roadmaps.csail.mit.edu/roadt
 
 Users can obtain the road segmentation maps via our proposed MBRE-Net, and obtain the road centerline maps via centerline-tracking method (e.g. RoadTracer, vecroad), which are then fused and enhanced through the subsequent steps. The pre-trained models of the above two methods are provided in this repo.
 
-## Connectivity Refinement
- The script ([Connectivity_Refinement.m](https://github.com/Lijp411/RoadCorrector/blob/main/enhancement/Connectivity_Refinement.m)) is used for road connectivity enhancement via CrossingTracer and Buffer-Fusion strategies.
-
-## Topology Correction
- 
- When users have obtained the road intersection detection result and the road segmentation map, the road topology correction can be performed using the script ([ShapeCorrect.py](https://github.com/Lijp411/RoadCorrector/blob/main/tools/ShapeCorrect.py)). Please note that users need to vectorize the road segmentation map into a shapefile before this step.
-
-## Evaluation
-The script ([metrics_single.m](https://github.com/Lijp411/RoadCorrector/blob/main/eval/metrics_single.m)) is used for calculating the evaluation metrics including IOU, precision, recall, and F1-score.
-
 ## Contact us
+
 For any questions,please contact us via lijp57@mail2.sysu.edu.cn or hejun36@mail2.sysu.edu.cn.
 
